@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calulator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" class="text" id="res">
+        <div class="btn">
+            <input type="button" class="color1" value='C' onclick="Clear()">
+            <input type="button" class="color1" value='+/-'>
+            <input type="button" class="color1" value='%'>
+            <input type="button" class="color2" value='/' onclick="Numbers('/')">
+            <input type="button" value='7' onclick="Numbers('7')">
+            <input type="button" value='8' onclick="Numbers('8')">
+            <input type="button" value='9' onclick="Numbers('9')">
+            <input type="button" class="color2" value='*' onclick="Numbers('*')">
+            <input type="button" value='4' onclick="Numbers('4')">
+            <input type="button" value='5' onclick="Numbers('5')">
+            <input type="button" value='6' onclick="Numbers('6')">
+            <input type="button" class="color2" value='-' onclick="Numbers('-')">
+            <input type="button" value='1' onclick="Numbers('1')">
+            <input type="button" value='2' onclick="Numbers('2')">
+            <input type="button" value='3' onclick="Numbers('3')">
+            <input type="button" class="color2" value='+' onclick="Numbers('+')">
+            <input type="button" value='0' class="Thero" onclick="Numbers('0')">
+            <input type="button" value="0" style="color: #333333;" onclick="Numbers('0')">
+            <input type="button" value='.' onclick="Numbers('.')">
+            <input type="button" class="color2" value='=' onclick="Result()">
+        </div>
+    </div>
+
+    <script src='./index.js'></script>
+</body>
+
+</html>
